@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Input regarding FQDN which will be used
-read -p "Enter your full FQDN:" fqdn
+read -p "Enter your full FQDN (ex name.domain.com):" fqdn
 
 # Creating persistant letsencrypt directories and downloading files
 mkdir /config/letsencrypt/
